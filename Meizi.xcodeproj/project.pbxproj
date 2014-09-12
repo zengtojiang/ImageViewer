@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0435A45016747247006F70D8 /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A44F16747247006F70D8 /* ParseOperation.m */; };
+		0435A45316747E33006F70D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435A45216747E33006F70D8 /* CoreData.framework */; };
+		0465B03716AAC81900F9EE10 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B03616AAC81800F9EE10 /* Social.framework */; };
+		0465B04916AACC4F00F9EE10 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B04816AACC4F00F9EE10 /* CoreTelephony.framework */; };
+		0465B04B16AACC5600F9EE10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B04A16AACC5600F9EE10 /* SystemConfiguration.framework */; };
+		0465B04D16AACC5D00F9EE10 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B04C16AACC5D00F9EE10 /* StoreKit.framework */; };
+		0465B04F16AACC6400F9EE10 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B04E16AACC6400F9EE10 /* MessageUI.framework */; };
+		0465B05116AACC6C00F9EE10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B05016AACC6C00F9EE10 /* CoreLocation.framework */; };
+		0465B05316AACC8400F9EE10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465B05216AACC8400F9EE10 /* QuartzCore.framework */; };
+		047BFF2B16AA890D004EE772 /* ZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BFF2A16AA890D004EE772 /* ZLHomeViewController.m */; };
+		04B2BFFE1683CA8F00A97195 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2BFFD1683CA8F00A97195 /* Entity.m */; };
+		04B4CCC1167A0BC70055BE90 /* ImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCC0167A0BC70055BE90 /* ImageEntity.m */; };
+		04B4CCC4167A0C7B0055BE90 /* ZLTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCC3167A0C7B0055BE90 /* ZLTitleView.m */; };
+		04BB7970167707DF00CE4226 /* FileManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BB796F167707DF00CE4226 /* FileManager.framework */; };
+		04BB799A1677373C00CE4226 /* ZLImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB79991677373B00CE4226 /* ZLImageCell.m */; };
+		04BB799D16773B0800CE4226 /* ZLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB799C16773B0700CE4226 /* ZLRequest.m */; };
+		04BB79A816776E4A00CE4226 /* ZLImagePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB79A716776E4900CE4226 /* ZLImagePageView.m */; };
+		04C60CB31671655200E96295 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C60CB21671655200E96295 /* UIKit.framework */; };
+		04C60CB51671655200E96295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C60CB41671655200E96295 /* Foundation.framework */; };
+		04C60CB71671655200E96295 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C60CB61671655200E96295 /* CoreGraphics.framework */; };
+		04C60CBF1671655200E96295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C60CBE1671655200E96295 /* main.m */; };
+		04C60CC31671655200E96295 /* ZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C60CC21671655200E96295 /* ZLAppDelegate.m */; };
+		04C60CC51671655200E96295 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C60CC41671655200E96295 /* Default.png */; };
+		04C60CC71671655200E96295 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C60CC61671655200E96295 /* Default@2x.png */; };
+		04C60CC91671655200E96295 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C60CC81671655200E96295 /* Default-568h@2x.png */; };
+		04C965731674A6A300EB601C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C965711674A6A200EB601C /* Model.xcdatamodeld */; };
+		04CAB053167549C300AB3B33 /* ZLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAB052167549C300AB3B33 /* ZLRootViewController.m */; };
+		04CC9D8116D43ACF00270F87 /* ZLZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC9D8016D43ACF00270F87 /* ZLZoomImageView.m */; };
+		04EA21B81682895700574408 /* ZLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA21B71682895700574408 /* ZLCollectionViewController.m */; };
+		04F008721678E10F000FD151 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F0086C1678E10F000FD151 /* Icon-72.png */; };
+		04F008731678E10F000FD151 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F0086D1678E10F000FD151 /* Icon-Small-50.png */; };
+		04F008741678E10F000FD151 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F0086E1678E10F000FD151 /* Icon-Small.png */; };
+		04F008751678E10F000FD151 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F0086F1678E10F000FD151 /* Icon-Small@2x.png */; };
+		04F008761678E10F000FD151 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F008701678E10F000FD151 /* Icon.png */; };
+		04F008771678E10F000FD151 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F008711678E10F000FD151 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0435A44E16747247006F70D8 /* ParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOperation.h; sourceTree = "<group>"; };
+		0435A44F16747247006F70D8 /* ParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOperation.m; sourceTree = "<group>"; };
+		0435A45216747E33006F70D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0465B03616AAC81800F9EE10 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0465B04816AACC4F00F9EE10 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0465B04A16AACC5600F9EE10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0465B04C16AACC5D00F9EE10 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0465B04E16AACC6400F9EE10 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0465B05016AACC6C00F9EE10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0465B05216AACC8400F9EE10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		047BFF2916AA890D004EE772 /* ZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLHomeViewController.h; sourceTree = "<group>"; };
+		047BFF2A16AA890D004EE772 /* ZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLHomeViewController.m; sourceTree = "<group>"; };
+		04B2BFFC1683CA8F00A97195 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		04B2BFFD1683CA8F00A97195 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		04B4CCBF167A0BC70055BE90 /* ImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEntity.h; sourceTree = "<group>"; };
+		04B4CCC0167A0BC70055BE90 /* ImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEntity.m; sourceTree = "<group>"; };
+		04B4CCC2167A0C7B0055BE90 /* ZLTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTitleView.h; sourceTree = "<group>"; };
+		04B4CCC3167A0C7B0055BE90 /* ZLTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTitleView.m; sourceTree = "<group>"; };
+		04BB796F167707DF00CE4226 /* FileManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileManager.framework; path = Meizi/FileManager.framework; sourceTree = "<group>"; };
+		04BB79981677373B00CE4226 /* ZLImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLImageCell.h; sourceTree = "<group>"; };
+		04BB79991677373B00CE4226 /* ZLImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImageCell.m; sourceTree = "<group>"; };
+		04BB799B16773B0700CE4226 /* ZLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRequest.h; sourceTree = "<group>"; };
+		04BB799C16773B0700CE4226 /* ZLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRequest.m; sourceTree = "<group>"; };
+		04BB79A616776E4800CE4226 /* ZLImagePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLImagePageView.h; sourceTree = "<group>"; };
+		04BB79A716776E4900CE4226 /* ZLImagePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImagePageView.m; sourceTree = "<group>"; };
+		04C60CAE1671655200E96295 /* kaolameitu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaolameitu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C60CB21671655200E96295 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04C60CB41671655200E96295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04C60CB61671655200E96295 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04C60CBA1671655200E96295 /* Meizi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meizi-Info.plist"; sourceTree = "<group>"; };
+		04C60CBE1671655200E96295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C60CC01671655200E96295 /* Meizi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meizi-Prefix.pch"; sourceTree = "<group>"; };
+		04C60CC11671655200E96295 /* ZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAppDelegate.h; sourceTree = "<group>"; };
+		04C60CC21671655200E96295 /* ZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAppDelegate.m; sourceTree = "<group>"; };
+		04C60CC41671655200E96295 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04C60CC61671655200E96295 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04C60CC81671655200E96295 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04C965721674A6A300EB601C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		04CAB051167549C300AB3B33 /* ZLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRootViewController.h; sourceTree = "<group>"; };
+		04CAB052167549C300AB3B33 /* ZLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRootViewController.m; sourceTree = "<group>"; };
+		04CC9D7F16D43ACF00270F87 /* ZLZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLZoomImageView.h; sourceTree = "<group>"; };
+		04CC9D8016D43ACF00270F87 /* ZLZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLZoomImageView.m; sourceTree = "<group>"; };
+		04EA21B61682895700574408 /* ZLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewController.h; sourceTree = "<group>"; };
+		04EA21B71682895700574408 /* ZLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionViewController.m; sourceTree = "<group>"; };
+		04F0086C1678E10F000FD151 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		04F0086D1678E10F000FD151 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		04F0086E1678E10F000FD151 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		04F0086F1678E10F000FD151 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		04F008701678E10F000FD151 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		04F008711678E10F000FD151 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C60CAB1671655200E96295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0465B05316AACC8400F9EE10 /* QuartzCore.framework in Frameworks */,
+				0465B05116AACC6C00F9EE10 /* CoreLocation.framework in Frameworks */,
+				0465B04F16AACC6400F9EE10 /* MessageUI.framework in Frameworks */,
+				0465B04D16AACC5D00F9EE10 /* StoreKit.framework in Frameworks */,
+				0465B04B16AACC5600F9EE10 /* SystemConfiguration.framework in Frameworks */,
+				0465B04916AACC4F00F9EE10 /* CoreTelephony.framework in Frameworks */,
+				0465B03716AAC81900F9EE10 /* Social.framework in Frameworks */,
+				0435A45316747E33006F70D8 /* CoreData.framework in Frameworks */,
+				04C60CB31671655200E96295 /* UIKit.framework in Frameworks */,
+				04C60CB51671655200E96295 /* Foundation.framework in Frameworks */,
+				04C60CB71671655200E96295 /* CoreGraphics.framework in Frameworks */,
+				04BB7970167707DF00CE4226 /* FileManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BC2C66167FD50000ADA089 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04C965711674A6A200EB601C /* Model.xcdatamodeld */,
+				04B4CCBF167A0BC70055BE90 /* ImageEntity.h */,
+				04B4CCC0167A0BC70055BE90 /* ImageEntity.m */,
+				04B2BFFC1683CA8F00A97195 /* Entity.h */,
+				04B2BFFD1683CA8F00A97195 /* Entity.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		04BC2C68167FD52D00ADA089 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04EA21B61682895700574408 /* ZLCollectionViewController.h */,
+				04EA21B71682895700574408 /* ZLCollectionViewController.m */,
+				047BFF2916AA890D004EE772 /* ZLHomeViewController.h */,
+				047BFF2A16AA890D004EE772 /* ZLHomeViewController.m */,
+				04CC9D7F16D43ACF00270F87 /* ZLZoomImageView.h */,
+				04CC9D8016D43ACF00270F87 /* ZLZoomImageView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		04C60CA31671655200E96295 = {
+			isa = PBXGroup;
+			children = (
+				04C60CB81671655200E96295 /* Meizi */,
+				04C60CB11671655200E96295 /* Frameworks */,
+				04C60CAF1671655200E96295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C60CAF1671655200E96295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C60CAE1671655200E96295 /* kaolameitu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C60CB11671655200E96295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0465B05216AACC8400F9EE10 /* QuartzCore.framework */,
+				0465B05016AACC6C00F9EE10 /* CoreLocation.framework */,
+				0465B04E16AACC6400F9EE10 /* MessageUI.framework */,
+				0465B04C16AACC5D00F9EE10 /* StoreKit.framework */,
+				0465B04A16AACC5600F9EE10 /* SystemConfiguration.framework */,
+				0465B04816AACC4F00F9EE10 /* CoreTelephony.framework */,
+				0465B03616AAC81800F9EE10 /* Social.framework */,
+				04BB796F167707DF00CE4226 /* FileManager.framework */,
+				0435A45216747E33006F70D8 /* CoreData.framework */,
+				04C60CB21671655200E96295 /* UIKit.framework */,
+				04C60CB41671655200E96295 /* Foundation.framework */,
+				04C60CB61671655200E96295 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C60CB81671655200E96295 /* Meizi */ = {
+			isa = PBXGroup;
+			children = (
+				04BC2C68167FD52D00ADA089 /* UI */,
+				04BC2C66167FD50000ADA089 /* model */,
+				04CAB051167549C300AB3B33 /* ZLRootViewController.h */,
+				04CAB052167549C300AB3B33 /* ZLRootViewController.m */,
+				0435A44E16747247006F70D8 /* ParseOperation.h */,
+				0435A44F16747247006F70D8 /* ParseOperation.m */,
+				04C60CC11671655200E96295 /* ZLAppDelegate.h */,
+				04C60CC21671655200E96295 /* ZLAppDelegate.m */,
+				04C60CB91671655200E96295 /* Supporting Files */,
+				04BB79981677373B00CE4226 /* ZLImageCell.h */,
+				04BB79991677373B00CE4226 /* ZLImageCell.m */,
+				04BB799B16773B0700CE4226 /* ZLRequest.h */,
+				04BB799C16773B0700CE4226 /* ZLRequest.m */,
+				04BB79A616776E4800CE4226 /* ZLImagePageView.h */,
+				04BB79A716776E4900CE4226 /* ZLImagePageView.m */,
+				04B4CCC2167A0C7B0055BE90 /* ZLTitleView.h */,
+				04B4CCC3167A0C7B0055BE90 /* ZLTitleView.m */,
+			);
+			path = Meizi;
+			sourceTree = "<group>";
+		};
+		04C60CB91671655200E96295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F0086C1678E10F000FD151 /* Icon-72.png */,
+				04F0086D1678E10F000FD151 /* Icon-Small-50.png */,
+				04F0086E1678E10F000FD151 /* Icon-Small.png */,
+				04F0086F1678E10F000FD151 /* Icon-Small@2x.png */,
+				04F008701678E10F000FD151 /* Icon.png */,
+				04F008711678E10F000FD151 /* Icon@2x.png */,
+				04C60CBA1671655200E96295 /* Meizi-Info.plist */,
+				04C60CBE1671655200E96295 /* main.m */,
+				04C60CC01671655200E96295 /* Meizi-Prefix.pch */,
+				04C60CC41671655200E96295 /* Default.png */,
+				04C60CC61671655200E96295 /* Default@2x.png */,
+				04C60CC81671655200E96295 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C60CAD1671655200E96295 /* kaolameitu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C60CD21671655200E96295 /* Build configuration list for PBXNativeTarget "kaolameitu" */;
+			buildPhases = (
+				04C60CAA1671655200E96295 /* Sources */,
+				04C60CAB1671655200E96295 /* Frameworks */,
+				04C60CAC1671655200E96295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaolameitu;
+			productName = Meizi;
+			productReference = 04C60CAE1671655200E96295 /* kaolameitu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C60CA51671655200E96295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = icow;
+			};
+			buildConfigurationList = 04C60CA81671655200E96295 /* Build configuration list for PBXProject "Meizi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+			);
+			mainGroup = 04C60CA31671655200E96295;
+			productRefGroup = 04C60CAF1671655200E96295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C60CAD1671655200E96295 /* kaolameitu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C60CAC1671655200E96295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C60CC51671655200E96295 /* Default.png in Resources */,
+				04C60CC71671655200E96295 /* Default@2x.png in Resources */,
+				04C60CC91671655200E96295 /* Default-568h@2x.png in Resources */,
+				04F008721678E10F000FD151 /* Icon-72.png in Resources */,
+				04F008731678E10F000FD151 /* Icon-Small-50.png in Resources */,
+				04F008741678E10F000FD151 /* Icon-Small.png in Resources */,
+				04F008751678E10F000FD151 /* Icon-Small@2x.png in Resources */,
+				04F008761678E10F000FD151 /* Icon.png in Resources */,
+				04F008771678E10F000FD151 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C60CAA1671655200E96295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C60CBF1671655200E96295 /* main.m in Sources */,
+				04C60CC31671655200E96295 /* ZLAppDelegate.m in Sources */,
+				0435A45016747247006F70D8 /* ParseOperation.m in Sources */,
+				04C965731674A6A300EB601C /* Model.xcdatamodeld in Sources */,
+				04CAB053167549C300AB3B33 /* ZLRootViewController.m in Sources */,
+				04BB799A1677373C00CE4226 /* ZLImageCell.m in Sources */,
+				04BB799D16773B0800CE4226 /* ZLRequest.m in Sources */,
+				04BB79A816776E4A00CE4226 /* ZLImagePageView.m in Sources */,
+				04B4CCC1167A0BC70055BE90 /* ImageEntity.m in Sources */,
+				04B4CCC4167A0C7B0055BE90 /* ZLTitleView.m in Sources */,
+				04EA21B81682895700574408 /* ZLCollectionViewController.m in Sources */,
+				04B2BFFE1683CA8F00A97195 /* Entity.m in Sources */,
+				047BFF2B16AA890D004EE772 /* ZLHomeViewController.m in Sources */,
+				04CC9D8116D43ACF00270F87 /* ZLZoomImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04C60CD01671655200E96295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C60CD11671655200E96295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C60CD31671655200E96295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Meizi\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizi/Meizi-Prefix.pch";
+				INFOPLIST_FILE = "Meizi/Meizi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Meizi\"",
+					"\"$(SRCROOT)/Meizi/MobiSageSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04C60CD41671655200E96295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Meizi\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizi/Meizi-Prefix.pch";
+				INFOPLIST_FILE = "Meizi/Meizi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Meizi\"",
+					"\"$(SRCROOT)/Meizi/MobiSageSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C60CA81671655200E96295 /* Build configuration list for PBXProject "Meizi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C60CD01671655200E96295 /* Debug */,
+				04C60CD11671655200E96295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C60CD21671655200E96295 /* Build configuration list for PBXNativeTarget "kaolameitu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C60CD31671655200E96295 /* Debug */,
+				04C60CD41671655200E96295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04C965711674A6A200EB601C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04C965721674A6A300EB601C /* Model.xcdatamodel */,
+			);
+			currentVersion = 04C965721674A6A300EB601C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04C60CA51671655200E96295 /* Project object */;
+}

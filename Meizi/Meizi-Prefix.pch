@@ -1,0 +1,45 @@
+//
+// Prefix header for all source files of the 'Meizi' target in the 'Meizi' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <Social/Social.h>
+#endif
+
+#define ZLDEBUG
+
+#undef ZLDEBUG
+
+#ifdef ZLDEBUG
+#define ZLTRACE(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define ZLTRACE(...) do { } while (0)
+#endif
+
+
+#define ZLSCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+
+#define ZLSCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+
+#define ZL_TEXT_COLOR      [UIColor colorWithRed:208.0/255.0 green:205.0/255.0 blue:182.0/255.0 alpha:1.0]
+
+#define ZL_BG_COLOR      [UIColor colorWithRed:108.0/255.0 green:95.0/255.0 blue:102.0/255.0 alpha:1.0]
+
+#define ZL_BAR_COLOR      [UIColor colorWithRed:148.0/255.0 green:135.0/255.0 blue:112.0/255.0 alpha:1.0]
+
+//状态栏高度
+#define  HS_STATUSBAR_HEIGHT  20.0f
+//ios7状态栏偏移量
+#define  IOS7_STATUSBAR_DELTA   (ISIOS7?(HS_STATUSBAR_HEIGHT):0)
+
+//判断是否是iPhone5
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
