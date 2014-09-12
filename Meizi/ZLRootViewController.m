@@ -27,7 +27,7 @@
     int date1=[[[[[aString componentsSeparatedByString:@"/"] lastObject] componentsSeparatedByString:@"."] objectAtIndex:0] intValue];
     
     int date2=[[[[[bString componentsSeparatedByString:@"/"] lastObject] componentsSeparatedByString:@"."] objectAtIndex:0] intValue];
-    ZLTRACE(@"index1:%d index2:%d",date1,date2);
+    ZLTRACE(@"index1:%d index2 :%d",date1,date2);
     if (date1>date2) {
         return NSOrderedDescending;
     }
